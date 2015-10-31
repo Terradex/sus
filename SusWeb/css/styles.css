@@ -1,0 +1,112 @@
+
+
+body{font: 76% arial,sans-serif;text-align:center; color: #333333;}
+
+/*
+table {border-collapse:collapse;}
+*/
+
+p{margin:0 10px 10px}
+
+a{padding:5px; text-decoration:none; color:#000000;border:none;}
+
+h1.heading {color:#000066; display:inline; padding:25px; margin:0px; letter-spacing: 2px; font-size:25pt; position:relative; top:-.3em; }
+
+div#menu {width:100%; height:22px;
+	margin: 10px 0 30px 0; 
+	
+    background: url(../images/buttonbg.jpg) repeat-x;
+	overflow:hidden;
+	border-radius: 6px;
+ 	-moz-border-radius: 6px;
+ 	-webkit-border-radius: 6px;
+}
+div#menu ul {margin:0px; padding: 0 0 0 10px;}
+/*li.menuitem { width:100px; height:30px; background-image:url('../images/button.jpg'); float:left; clears:none; list-style:none;}*/
+li.menuitem { width:auto; height:30px; float:left; clears:none; list-style:none; padding-top:3px;}
+
+li.menuitem a { width:250px; height:30px; overflow:hidden;color:#FFFFFF;font-size:small;font-weight:bold;}
+li.menuitem:hover {background-image:url('../images/buttonlight.jpg');}
+
+input {background:lightgrey;}
+
+
+div#header{  padding-top:20px;}
+
+div#container{text-align:left; margin:0 auto;}
+
+img.logo {width:40px; position:relative; left:20px;}
+
+div#wrapper{float:left;width:100%}
+
+div#navigation{background:#F6F0E0;}
+
+
+div#categorylist{background: white; width:60px;}
+div#categorylist ul {list-style:none; margin:0px; padding:0px; width:100%; margin:10px 0;}
+div#categorylist li a {letter-spacing:1px; display:block; width:130px; margin:0; padding:6px 10px;}
+div#categorylist li { background-color:#CCC8B3; margin-bottom:2px;}
+div#categorylist a.selected {background-color:#000066; color:white;  }
+div#categorylist a:hover {background-color:#333388; color:white;}
+
+.categories
+        {
+            background-color: #CCC8B3;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-spacing: 5px;
+        }
+
+div#content{ width:100%; margin-left:150px; min-height:380px;}
+
+div.product {width:748px; height:140px; background-color:white; border:thin #dddddd solid; margin-bottom:5px;}
+div.product p {margin:10px 0;}
+div.product h1 {font-size:15px; margin:20px 0 0px 0; color:#004400; font-weight:bold; padding:0px;}
+
+div.product_image { float:left; width:25%; }
+div.product_image img { width:70px; margin:30px; }
+
+
+div.product_rebates { float:left; width:25%; height:70px; text-align:center; }
+div.product_rebates .rebatebutton { margin-top:25px; }
+
+div.product_desc { float:left; width:25%; height:70px;    text-align:center;}
+div.product_desc table{ margin-top:17px; text-align:left; border:1px; border-collapse:separate; border:thin lightgrey solid; }
+div.product_desc td { margin:10px; border:thin lightgrey solid; padding: 1px 3px;}
+td { min-width:100px;}
+
+
+div.product_links { float:left; width:25%; height:70px;  text-align:center; }
+div.product_links a { display:block; margin:0px; padding:2px 0; color:#000066;}
+div.product_links a:hover{ color:#0000ff;}
+
+
+div#navigation{ display:none;}
+
+div#footer{background:#BFBD93; width:903px;}
+div#footer p{margin:0;padding:5px 10px;}
+
+div#container{width:900px;margin:0 auto}
+
+
+div#categorylist{float:left;width:150px; }
+
+
+
+.my_nav { background-color:#ccc8b3; padding:8px 5px; color:#FFFFFF; cursor:pointer; font:12px/12px arial,sans-serif; text-decoration:none;}
+.my_nav:hover { background-color:#133863; color:white; padding:8px 5px; color:#FFFFFF; cursor:pointer; font:12px/12px arial,sans-serif; text-decoration:none;}
+.my_nav:hover * {color:white;} 
+
+.selected{ background-color:#000066; padding:8px 5px; color:#FFFFFF; cursor:pointer; font:12px/12px arial,sans-serif; text-decoration:none;}
+.image_product
+{
+padding:5px; max-height: 90px; max-width: 90px;
+_width:expression(document.body.clientWidth > 90? "90px": "auto" );
+_height:expression(document.body.clientHeight > 90? "90px": "auto" );
+}
+.image_logo
+{
+padding:5px; max-height: 30px; max-width: 30px;
+_width:expression(document.body.clientWidth > 30? "30px": "auto" );
+_height:expression(document.body.clientHeight > 30? "30px": "auto" );
+}

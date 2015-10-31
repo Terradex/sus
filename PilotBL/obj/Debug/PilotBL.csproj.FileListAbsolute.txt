@@ -1,0 +1,14 @@
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\bin\Debug\PilotBL.dll
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\bin\Debug\PilotBL.pdb
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\obj\Debug\PilotBL.dll
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\obj\Debug\PilotBL.pdb
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\bin\Debug\PilotDL.dll
+D:\Projects\PilotProductDisplay\Code\Pilot\PilotBL\bin\Debug\PilotDL.pdb
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\bin\Debug\PilotBL.dll
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\bin\Debug\PilotBL.pdb
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\bin\Debug\PilotDL.dll
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\bin\Debug\PilotDL.pdb
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\obj\Debug\PilotBL.dll
+D:\Projects\PilotProductDisplay\Code\sus\PilotBL\obj\Debug\PilotBL.pdb

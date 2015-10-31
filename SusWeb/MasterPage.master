@@ -1,0 +1,52 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Terradex </title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="style/styles.css" />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <img class="logo" src="images/TerradexLogo.gif">
+            <h1 class="heading">
+                Terradex
+            </h1>
+            <div style="float:right;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li class="menuitem"><a href="Search.aspx">Search | </a></li>
+                    <li class="menuitem"><a href="MyRebateConfirmations.aspx">My Rebate Confirmations | </a></li>
+                    <li class="menuitem"><a href="Login.aspx" id="linkLogin" runat="server" onserverclick="linkLogin_Clicked" title="Login" causesvalidation="false" UseSubmitBehavior="false">Login</a></li>
+                </ul>                 
+            </div>
+        </div>
+        <div align="center">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <p>
+                Footer</p>
+        </div>
+
+     </div>
+    
+    
+    
+    </form>
+</body>
+</html>
